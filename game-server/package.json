@@ -3,6 +3,13 @@
     "version": "0.0.1",
     "private": false,
     "dependencies": {
+<<<<<<< HEAD
         "pomelo": "2.2.5"
+=======
+        "body-parser": "^1.18.2",
+        "pomelo": "2.2.5",
+        "crc": "0.2.0",
+        "serve-static": "^1.13.2"
+>>>>>>> 6bb2fa188e3dfb86253c8b8434d409c28bf279a5
     }
 }

@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "private": false,
   "dependencies": {
-    "express": "3.4.8"
+    "body-parser": "^1.18.2",
+    "emitter": "0.0.5",
+    "express": "^3.4.8",
+    "merge-descriptors": "^1.0.1",
+    "serve-static": "^1.13.2"
   }
 }

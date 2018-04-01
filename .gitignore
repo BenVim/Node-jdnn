@@ -14,4 +14,4 @@ web-server/node_modules/*
 *.sublime-workspace
 .idea
 .idea/*
-
+package-lock.json
