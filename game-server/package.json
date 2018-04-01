@@ -1,9 +1,8 @@
 {
-    "name":"Node-jdnn",
-    "version":"0.0.1",
-    "private":false,
-    "dependencies":{
-        "pomelo":"2.2.5"
+    "name": "Node-jdnn",
+    "version": "0.0.1",
+    "private": false,
+    "dependencies": {
+        "pomelo": "2.2.5"
     }
 }
-
