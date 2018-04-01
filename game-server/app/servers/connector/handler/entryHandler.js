@@ -15,7 +15,8 @@ var Handler = function(app) {
  * @return {Void}
  */
 Handler.prototype.entry = function(msg, session, next) {
-  next(null, {code: 200, msg: 'game server is ok.'});
+    console.log("entry");
+    next(null, {code: 200, msg: 'game server is ok.'});
 };
 
 /**
@@ -27,6 +28,7 @@ Handler.prototype.entry = function(msg, session, next) {
  * @return {Void}
  */
 Handler.prototype.publish = function(msg, session, next) {
+    console.log('publish');
 	var result = {
 		topic: 'publish',
 		payload: JSON.stringify({code: 200, msg: 'publish message is ok.'})

@@ -1,9 +1,11 @@
 {
-    "name":"Node-jdnn",
-    "version":"0.0.1",
-    "private":false,
-    "dependencies":{
-        "pomelo":"2.2.5"
+    "name": "Node-jdnn",
+    "version": "0.0.1",
+    "private": false,
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "pomelo": "2.2.5",
+        "crc": "0.2.0",
+        "serve-static": "^1.13.2"
     }
 }
-
